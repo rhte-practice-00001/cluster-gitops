@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: servicemesh/operators
-    repoURL: https://github.com/RHC-STP-OSSM/cluster-gitops
+    repoURL: https://github.com/rhte-practice-00001/cluster-gitops
     targetRevision: HEAD
   syncPolicy:
     automated: {}

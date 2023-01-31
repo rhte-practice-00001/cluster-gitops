@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: apps
-    repoURL: $REPO_URL
+    repoURL: https://github.com/rhte-practice-00001/cluster-gitops
     targetRevision: HEAD
   syncPolicy:
     automated: {}
