@@ -12,4 +12,5 @@ spec:
     repoURL: https://github.com/RHC-STP-OSSM/gitops-app-bookinfo.git
     targetRevision: HEAD
   syncPolicy:
-    automated: {}
+    automated:
+      selfHeal: true

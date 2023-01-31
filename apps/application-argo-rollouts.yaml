@@ -12,4 +12,5 @@ spec:
     repoURL: https://github.com/rhte-practice-00001/cluster-gitops
     targetRevision: HEAD
   syncPolicy:
-    automated: {}
+    automated:
+      selfHeal: true
